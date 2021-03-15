@@ -4,7 +4,10 @@ public class Tables {
 		// Put the code for your times-table here
 		int i = 1;
 		for (i = 1; i <= 12; i++) {
-			System.out.println(i);
+			int j = 1;
+			for (j = 1; j <= 12; j++) {
+				System.out.println(i);
+			}
 
 		}
 
